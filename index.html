@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>AA_2048</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/game.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class ="center">
+        <header>
+            <nav class="navBar">
+                <ol>                    
+                  <li> 2048 </li>
+                  <h2 id="gameMessage"></h2>  
+                  <li><button class="basicBtn" id="btn_reset">Reset</button></li>      
+                </ol>
+            </nav>
+        </header>
+
+
+<!-- Apartado de estadisticas -->
+        <section class="GameStats">
+            <h2 id="gameStats-tittle">Game Stats</h2>
+            <ol class="MovesAndPieces">
+              <li name="MovementCount">Moves: <span>0</span> </li>
+              <li name="TotalPieces">Total Pieces: <span>0</span></li>
+            </ol>
+
+            <div class = "Score-container">
+                <p class="Score-title"> Score </p>
+                <h2 id="score">0</h2>
+              </div>
+
+              <div class="Timer-container">
+                <p class="Timer-tittle">Time</p>
+                <h2 id="timer">0:00</h2>
+              </div>
+        </section>
+
+<!-- Juego -->
+        <section name="gameSection">
+          <div class="grid-container">
+            <!-- matrix: rows & cells 4x4 -->
+          </div>
+        </section>
+
+        <footer class="footer">
+            Made by: @CamilaThompson & @JennyKing | August 2025 TEC        
+        </footer>
+      </div>
+</body>
+</html>

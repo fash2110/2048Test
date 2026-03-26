@@ -1,0 +1,12 @@
+Uso del juego:
+Las piezas (2,4,8) se generan desde la fila superior y caen hasta el fondo del tablero.
+El jugador puede moverlas IZQUIERDA o DERECHA usando las rechas 'A' y 'D' respectivamente.
+El movimiento, tiempo y score son visibles durante todo el juego.
+Si el jugador gana o pierde, el mensaje se muestra arriba de las estadisticas.
+
+Reporte de pulgas:
+El programa funciona en su totalidad.
+El unico bug no solucionado es que a veces al ir cayendo las piezas desde la fila superior,
+pueden atorarse alli si debajo hubo un merge repentido de piezas.
+
+

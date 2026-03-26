@@ -1,0 +1,68 @@
+body {
+    background-color: #d1c7bd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center
+{
+    margin: auto;
+    width: 60%;    
+    padding: 5rem;
+    border: 3px solid #ac9c8d;
+    align-items: center;
+
+}
+#gameMessage{
+    font-size: 40px;
+    color: black;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ac9c8d;
+   color: black;
+   text-align: center;
+   padding: 1%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 13px;
+}
+.GameStats {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+.MovesAndPieces{
+    color: #8f7a66;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    align-self: center;
+}
+#gameStats-tittle{
+    color: #ac9c8d;
+    align-self: center;
+} 
+
+.Score-container,
+.Timer-container{
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    background: #8f7a66;
+    padding: .5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
